@@ -1,9 +1,6 @@
 from utils import *
 from var import *
 
-bfont = (32)
-lfont = ("华文新魏",15)
-
 def get_out(type,lb1,lb2,lb3):
     tmd,rubbish,h = get_lunar()
     m = month[tmd[0]] #7
